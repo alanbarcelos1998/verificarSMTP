@@ -14,6 +14,7 @@ func TestVerificaSmtp(t *testing.T) {
 	enderecoSmtp := []enderecoSmtpParaTeste{
 		{"smtp-mail.outlook.com:587"},
 		{"smtp.mail.yahoo.com:587"},
+		{"smtp.mail.yahoo.com:87"},
 	}
 
 	for _, enderecos := range enderecoSmtp {
